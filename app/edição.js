@@ -45,7 +45,7 @@ function capturaDados (e){
     }
 
     localStorage.setItem("edicao", JSON.stringify(dadosCodigo));
-    window.location.href = "../Editor.html"
+    window.location.href = "../editor.html"
 }
 
 function deletaProjeto (e){
