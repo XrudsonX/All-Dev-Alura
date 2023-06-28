@@ -1,0 +1,69 @@
+@media screen and (min-width: 1280px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .cabecalho {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .icone__menu {
+        display: none;
+    }
+
+    .navegacao {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: end;
+    }
+
+    .navegacao__perfil {
+        display: flex;
+        justify-content: end;
+    }
+
+    .perfil__link {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+
+    .perfil__nome {
+        color: var(--branco);
+    }
+
+
+    .menu {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .menu__lista {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .menu__perfil {
+        display: none;
+    }
+
+    .container__principal {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .container__direito {
+        margin-left: 40px;
+    }
+
+    .projeto__descricao {
+        width: 100%;
+    }
+
+    .personalizacao__opcoes {
+        grid-template-columns: 1fr;
+    }
+}

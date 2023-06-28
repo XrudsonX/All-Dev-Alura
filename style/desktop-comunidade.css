@@ -1,0 +1,13 @@
+@media screen and (min-width: 1280px) {
+
+    .container__principal-comunidade {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .container__projetos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

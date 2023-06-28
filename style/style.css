@@ -1,0 +1,31 @@
+@import url(./mobile.css);
+@import url(./tablet.css);
+@import url(./desktop.css);
+@import url(./mobile-comunidade.css);
+@import url(./desktop-comunidade.css);
+
+:root {
+    --azul-escuro: #051D3B;
+    --azul-claro: #6BD1FF;
+    --cinza-escuro: #141414;
+    --azul-transparente: rgba(80, 129, 251, 0.08);
+    --azul: #5081FB;
+    --azul-hover: rgba(123, 164, 252, 1);
+    --icone-ativo: rgba(80, 129, 251, 1);
+    --branco-transparente: rgba(255, 255, 255, 0.16);
+    --branco-transparente-hover: rgba(255, 255, 255, 0.24);
+    --fonte-principal: 'Inter', sans-serif;
+    --branco: #FFF;
+    --fundo-projeto: rgba(0, 0, 0, 0.16);
+    --fundo-menu: #2D415B;
+
+}
+
+body {
+    background-color: var(--azul-escuro);
+    font-family: var(--fonte-principal);
+}
+
+.invisivel {
+    display: none;
+}

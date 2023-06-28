@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 32px 32px 40px 32px;
+    }
+
+    .cabecalho {
+        grid-template-columns: 1fr 2.5fr 0.5fr;
+        align-items: center;
+    }
+
+    .navegacao__pesquisa {
+        display: block;
+        height: 56px;
+    }
+
+    .icone__lupa {
+        display: none;
+    }
+
+    .menu {
+        top: -100vh;
+    }
+
+    .personalizacao__opcoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .ativo {
+        top: 95px;
+    }
+}
