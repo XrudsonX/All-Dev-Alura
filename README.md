@@ -2,7 +2,7 @@
 <h1> All Dev </h1>
 
 ### Introdução
-Esse é um projeto desenvolvido por mim como desafio do final da minha trilha de cursos front-end.<br>
+Esse é um projeto desenvolvido por mim como desafio final da minha trilha de cursos front-end.<br>
 Utilizei todos os conhecimentos adqueridos em vários  cursos de html, css e javaScript.
 
 ### Descrição do projeto
